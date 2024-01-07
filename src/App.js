@@ -100,7 +100,7 @@ function App() {
         </div>
       </div>
 
-      <div className='row col-md-8 col-12 align-items-center mx-auto lightBox p-4 mt-5 mb-5 '>
+      <div className='row col-md-8 col-12 align-items-center mx-auto lightBox p-4 mt-5 '>
         <div className='bg-white border-0 rounded-3 mt-3' style={{ maxHeight: "180px", overflowY: "hidden" }}>
           {words.map((word, key) => (
             <span key={key} ref={key === i ? setTargetWordRef : null} className={`p-1 pt-4 fs-4 mb-2`}><span className={`p-1 text-${wordStatus[key]} ${key === i && 'bg-secondary-subtle'}`}>{lang === 'TR' ? word.turkish : word.english}</span></span>
