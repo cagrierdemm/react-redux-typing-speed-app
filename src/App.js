@@ -100,14 +100,14 @@ function App() {
         </div>
       </div>
 
-      <div className='row col-md-8 col-12 align-items-center mx-auto lightBox p-4 mt-5 mb-2 '>
-        <div className='bg-white py-4 border-0 rounded-3 mt-3' style={{ maxHeight: "180px", overflowY: "hidden" }}>
+      <div className='row col-md-8 col-12 align-items-center mx-auto lightBox p-4 mt-5 mb-5 '>
+        <div className='bg-white border-0 rounded-3 mt-3' style={{ maxHeight: "180px", overflowY: "hidden" }}>
           {words.map((word, key) => (
-            <span key={key} ref={key === i ? setTargetWordRef : null} className={`p-1 pt-4 fs-4 mb-4`}><span className={`p-1 text-${wordStatus[key]} ${key === i && 'bg-secondary-subtle'}`}>{lang === 'TR' ? word.turkish : word.english}</span></span>
+            <span key={key} ref={key === i ? setTargetWordRef : null} className={`p-1 pt-4 fs-4 mb-2`}><span className={`p-1 text-${wordStatus[key]} ${key === i && 'bg-secondary-subtle'}`}>{lang === 'TR' ? word.turkish : word.english}</span></span>
           ))}
         </div>
         <div className='text-center'>
-          <input className='mt-5 py-2 px-3 rounded-2 border-0' type='text' value={inputValue} onChange={handleChange}></input>
+          <input className='mt-4 py-2 px-3 rounded-2 border-0' type='text' value={inputValue} onChange={handleChange}></input>
           <span className='mx-2 bg-dark rounded-2 border-0  text-white p-2 mrg'>{time}</span>
           <button className='me-2 p-2 rounded-2 border-0 text-white hover mrg' onClick={handleReset}>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-clockwise" viewBox="0 0 16 16">
