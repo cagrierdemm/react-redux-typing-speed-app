@@ -82,7 +82,7 @@ function App() {
 
   return (
     <div className='container'>
-      <div className='row'>
+      <div className='row align-items-center'>
         <div className='col-md-8 row mx-auto text-center lightBox p-2 row d-flex justify-content-center align-items-center'>
           <div className='col-3 col-md-2'>
             <select className='rounded-3' onChange={langChange}>
