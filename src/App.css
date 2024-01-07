@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+@media screen and (max-width: 1024px) {
+  body {
+    margin: 10px;
+    /* Margin for mobile screens */
+  }
+}
+
+
+/* ---------- For those using screen size at 125% and 150% ---------- */
+
+@media (-webkit-device-pixel-ratio: 1.25) {
+  body {
+    transform: scale(0.75);   
+  }
+  .container{
+    top: -35px;
+    left: 0;
+    right: 0;
+    position: absolute;
+  }
+}
+
+@media (-webkit-device-pixel-ratio: 1.5) {
+  body {
+    transform: scale(0.60);   
+  }
+  .container{
+    top: -120px;
+    left: 0;
+    right: 0;
+    position: absolute;
+  }
+}
+
+/* ---------- For those using screen size at 125% and 150% ---------- */
+
+body {
+  background: linear-gradient(90deg, #00CCFF 0%, #0D9DE3 100%);
+  display: grid;
+  place-items: center;
+  min-height: 90vh;
+}
+
+.lightBox{
+  background-color: #e2e2e2;
+  border-radius: 20px;
+}
+
+.color1{
+  color: #959ba3;
+}
+
+span {
+  display: inline-block;
+}
+
+.lightLogo{
+  opacity: 1;  
+}
+
+.lightLogo:hover{
+  transition: opacity 0.5s ease; 
+  opacity: 0.6;
+}
+
+.light{
+  background-color: #F5F5F5;
+  color: #333333;
+}
+
+
+.hover{
+  background-color: rgb( 13,110,253);
+}
+
+.hover:hover{
+  background-color:  rgb(9, 74, 172);
+}
