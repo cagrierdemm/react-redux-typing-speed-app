@@ -83,7 +83,7 @@ function App() {
   return (
     <div className='container'>
       <div className='row'>
-        <div className='col-md-8 mx-auto text-center lightBox p-2 row d-flex justify-content-center align-items-center'>
+        <div className='col-md-8 row mx-auto text-center lightBox p-2 row d-flex justify-content-center align-items-center'>
           <div className='col-3 col-md-2'>
             <select className='rounded-3' onChange={langChange}>
               <option value='TR'>Türkçe</option>
@@ -98,6 +98,8 @@ function App() {
             <a href='https://www.linkedin.com/in/cagrierdemm/'><img src='./linkedin.png' className='lightLogo' alt='Linkedin Logo' width={30} /></a>
             </div>
         </div>
+        </div>
+        <div className='row'>
         <div className='col-md-8 mx-auto lightBox p-5 mt-5 mb-5'>
           <div className='row'><div className='bg-white py-4 border-0 rounded-3' style={{ maxHeight: "180px", overflowY: "hidden" }}>
             {words.map((word, key) => (
@@ -114,7 +116,8 @@ function App() {
               </svg>
             </button></div>
         </div>
-      </div>
+        </div>
+     
       {modalVisible && (
         <div className="modal" id='exampleModal' tabindex="-1" style={{ display: 'block', backgroundColor: 'rgba(0, 0, 0, 0.5)' }} data-bs-target="#exampleModal">
           <div className="modal-dialog modal-dialog-centered text-center">
