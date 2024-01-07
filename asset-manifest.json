@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-redux-typing-speed-app/static/css/main.31fd2c87.css",
-    "main.js": "/react-redux-typing-speed-app/static/js/main.d829620c.js",
+    "main.js": "/react-redux-typing-speed-app/static/js/main.b30a7f57.js",
     "static/js/787.c4ef9bb6.chunk.js": "/react-redux-typing-speed-app/static/js/787.c4ef9bb6.chunk.js",
     "index.html": "/react-redux-typing-speed-app/index.html",
     "main.31fd2c87.css.map": "/react-redux-typing-speed-app/static/css/main.31fd2c87.css.map",
-    "main.d829620c.js.map": "/react-redux-typing-speed-app/static/js/main.d829620c.js.map",
+    "main.b30a7f57.js.map": "/react-redux-typing-speed-app/static/js/main.b30a7f57.js.map",
     "787.c4ef9bb6.chunk.js.map": "/react-redux-typing-speed-app/static/js/787.c4ef9bb6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31fd2c87.css",
-    "static/js/main.d829620c.js"
+    "static/js/main.b30a7f57.js"
   ]
 }
