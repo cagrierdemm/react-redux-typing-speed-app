@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-redux-typing-speed-app/static/css/main.88cf9efc.css",
-    "main.js": "/react-redux-typing-speed-app/static/js/main.e23ab467.js",
+    "main.css": "/react-redux-typing-speed-app/static/css/main.e67a283f.css",
+    "main.js": "/react-redux-typing-speed-app/static/js/main.39072156.js",
     "static/js/787.c4ef9bb6.chunk.js": "/react-redux-typing-speed-app/static/js/787.c4ef9bb6.chunk.js",
     "index.html": "/react-redux-typing-speed-app/index.html",
-    "main.88cf9efc.css.map": "/react-redux-typing-speed-app/static/css/main.88cf9efc.css.map",
-    "main.e23ab467.js.map": "/react-redux-typing-speed-app/static/js/main.e23ab467.js.map",
+    "main.e67a283f.css.map": "/react-redux-typing-speed-app/static/css/main.e67a283f.css.map",
+    "main.39072156.js.map": "/react-redux-typing-speed-app/static/js/main.39072156.js.map",
     "787.c4ef9bb6.chunk.js.map": "/react-redux-typing-speed-app/static/js/787.c4ef9bb6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.88cf9efc.css",
-    "static/js/main.e23ab467.js"
+    "static/css/main.e67a283f.css",
+    "static/js/main.39072156.js"
   ]
 }
