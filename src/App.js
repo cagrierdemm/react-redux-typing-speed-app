@@ -94,8 +94,8 @@ function App() {
             <h3 className='p-0  m-0'>{lang === 'TR' ? 'Yazma Hızı Testi' : 'Typing Speed'}</h3>
           </div>
           <div className='col-3 col-md-2'>
-            <a href='https://github.com/cagrierdemm'><img src='../github.png' className='float-end lightLogo' alt='Github Logo' width={30} /></a>
-            <a href='https://www.linkedin.com/in/cagrierdemm/'><img src='../linkedin.png' className='lightLogo' alt='Linkedin Logo' width={30} /></a>
+            <a href='https://github.com/cagrierdemm'><img src='./github.png' className='float-end lightLogo' alt='Github Logo' width={30} /></a>
+            <a href='https://www.linkedin.com/in/cagrierdemm/'><img src='./linkedin.png' className='lightLogo' alt='Linkedin Logo' width={30} /></a>
             </div>
         </div>
         <div className='col-md-8 mx-auto lightBox p-5 mt-5 mb-5'>
