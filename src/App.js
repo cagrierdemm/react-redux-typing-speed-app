@@ -119,7 +119,7 @@ function App() {
 
 
       {modalVisible && (
-        <div className="modal" id='exampleModal' tabindex="-1" style={{ display: 'block', backgroundColor: 'rgba(0, 0, 0, 0.5)' }} data-bs-target="#exampleModal">
+        <div className="modal" id='exampleModal' tabindex="-1" style={{ display: 'block'}} data-bs-target="#exampleModal">
           <div className="modal-dialog modal-dialog-centered text-center">
             <div className="modal-content">
               <div className="modal-header">
